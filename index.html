@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lampada-JS</title>
+
+    <script src="index.js" defer></script>
+
+    <style>
+        header,main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 60px;
+        }
+
+        #lampada{
+            cursor: pointer;
+        }
+
+        button{
+            width: 130px;
+            padding: 3px 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header><h1>Vanilla-JS</h1></header>
+      <div>
+        <img src="./src/imagens/desligada.jpg" alt="lampada desligada"  id="lampada"/>
+      </div>
+
+      <div>
+        <button id="turn-on" onclick="turnOn()">Ligar</button>
+
+        <button id="turn-off" onclick="turnOff()">Desligar</button>
+      </div>
+    </main>
+  </body>
+</html>
