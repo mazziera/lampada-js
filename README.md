@@ -1,6 +1,6 @@
 # Lâmpada-JS
 
-![](./src/imagens/desktop-preview.png)
+![](./src/imagens/desktop-preview.gif)
 
 ## Sumário
 
